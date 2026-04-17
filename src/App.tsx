@@ -3,7 +3,11 @@ import './styles/global.css'
 import { Heading } from './components/Heading'
 
 export function App() {
-  return <Heading/>
+  return <div>
+    <Heading attr="123"> Nome</Heading >
+    <Heading> Nome</Heading >
+
+  </div>
 }
 
 
