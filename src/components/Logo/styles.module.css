@@ -1,0 +1,30 @@
+.logo{
+    /* background-color: red; */
+    gap: 2.4rem;
+    margin-top: 6.4rem;
+}
+
+
+.logoLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 4.2rem;
+    font-weight: bold;
+    gap: 0.5rem;
+    color: var(--primary);
+    transition: ease-in-out 0.5s;
+}
+.logoLink:hover {
+    filter: brightness(70%);
+}
+
+
+
+
+.logoLink svg{
+    width: 6.4rem;
+    height: 6.4rem;
+}
