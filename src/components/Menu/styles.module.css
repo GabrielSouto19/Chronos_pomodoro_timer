@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+.logo{
+    background-color: var(--primary);
+    padding: .8rem;
+    border-radius: .4rem;
+    transition: ease-in-out 0.5s;
+
+}
+.logo:hover{
+    filter: brightness(70%);
+
+}
+
+.logo svg{
+    color: var(--text-over-primary);
+    width: 2.4rem;
+    height: 2.4rem;
+}
