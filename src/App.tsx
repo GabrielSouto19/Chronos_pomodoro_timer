@@ -7,6 +7,7 @@ import { Heading } from './components/Heading'
 import { Container } from './components/Container'
 import { Logo } from './components/Logo'
 import { Menu } from './components/Menu'
+import { CountDown } from './components/CountDown'
 
 export function App() {
   return <>
@@ -20,8 +21,9 @@ export function App() {
 
       
       <Container>
-        <div></div>
+        <CountDown/>
       </Container>
+      
       <div className="container">
         <div className="content">
           <section>FORM</section>
